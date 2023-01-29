@@ -31,8 +31,6 @@
     "typescript": "^4.9.4"
   },
   "_moduleAliases": {
-    "@routes/*": [
-      "dist/routes/*"
-    ]
+    "@routes/*":"dist/routes/*"
   }
 }
