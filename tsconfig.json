@@ -10,12 +10,14 @@
     "strictPropertyInitialization": false,
     "skipLibCheck": true,
     "rootDir": "./src",                                  
+    "outDir": "./dist",                                                             
     "baseUrl": "./src",                                  
     "paths": {
       "@routes/*":["routes/*"],
       "@models/*":["models/*"],
-      "@controllers/*":["controllers/*"]
+      "@controllers/*":["controllers/*"],
+      "@config/*":["config/*"],
+      "@middleware/*":["middleware/*"],
     },                                      
-    "outDir": "./dist",                                                             
   }
 }
